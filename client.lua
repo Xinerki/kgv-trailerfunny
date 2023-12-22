@@ -37,7 +37,7 @@ end
 CreateThread(function()
     local nearby = false
     while true do Wait(0)
-        local dist = #(GetEntityCoords(PlayerPedId()).xy - vec(-1700.0, -1300.0))
+        local dist = #(GetEntityCoords(PlayerPedId()).xy - vec(-1420.0, -978.0))
         if dist < 700.0 then
             if not nearby then
                 DoIt()
